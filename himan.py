@@ -9,6 +9,10 @@ with open("Solid-Waste.pdf", "rb") as file:
     file_name="Solid-Waste.pdf",
     mime="pdf"
     )
+st.write()
 st.write("All PPTs [link](https://bit.ly/aiml-3-1)")
-st.file_uploader('File uploader')
+st.write("Leetcode  [profile](https://leetcode.com/Himanshu_parida)")
+st.write("Github  [profile](https://github.com/Himanshu6623)")
+st.write()
+data = st.file_uploader('File uploader')
 st.download_button('On the dl', data)
