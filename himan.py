@@ -10,5 +10,5 @@ with open("Solid-Waste.pdf", "rb") as file:
     mime="pdf"
     )
 st.write("All PPTs [link](https://bit.ly/aiml-3-1)")
-data = st.file_uploader('File uploader')
+st.file_uploader('File uploader')
 st.download_button('On the dl', data)
