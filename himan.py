@@ -11,15 +11,15 @@ with open("Solid-Waste.pdf", "rb") as file:
     )
 with open("Accident locations on Indian roads.pptx", "rb") as pptx:
     btn = st.download_button(
-    label="Download PPT",
+    label="Accident locations PPT",
     data=pptx,
     file_name="Accident locations on Indian roads.pptx",
     mime="pptx"
     )
-with open("Internship report", "rb") as file:
+with open("Internship report", "rb") as docx:
     btn = st.download_button(
-    label="Download PPT",
-    data=file,
+    label="Download Internship report",
+    data=docx,
     file_name="Internship report",
     mime="docx"
     )
