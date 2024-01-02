@@ -29,4 +29,5 @@ st.write("Leetcode  [profile](https://leetcode.com/Himanshu_parida)")
 st.write("Github  [profile](https://github.com/Himanshu6623)")
 st.write()
 data = st.file_uploader('File uploader')
-st.download_button('On the dl', data)
+if data :
+    st.download_button('On the dl', data)
