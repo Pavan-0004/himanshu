@@ -15,7 +15,14 @@ with open("Accident locations on Indian roads.ppt", "rb") as ppt:
     data=ppt,
     file_name="Accident locations on Indian roads.ppt",
     mime="ppt"
-            )
+    )
+with open("Internship report", "rb") as file:
+    btn = st.download_button(
+    label="Download PPT",
+    data=file,
+    file_name="Internship report",
+    mime="docx"
+    )
 st.write()
 st.write("All PPTs [link](https://bit.ly/aiml-3-1)")
 st.write("Leetcode  [profile](https://leetcode.com/Himanshu_parida)")
