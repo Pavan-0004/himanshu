@@ -9,12 +9,12 @@ with open("Solid-Waste.pdf", "rb") as file:
     file_name="Solid-Waste.pdf",
     mime="pdf"
     )
-with open("Accident locations on Indian roads.ppt", "rb") as ppt:
+with open("Accident locations on Indian roads.pptx", "rb") as pptx:
     btn = st.download_button(
     label="Download PPT",
-    data=ppt,
-    file_name="Accident locations on Indian roads.ppt",
-    mime="ppt"
+    data=pptx,
+    file_name="Accident locations on Indian roads.pptx",
+    mime="pptx"
     )
 with open("Internship report", "rb") as file:
     btn = st.download_button(
