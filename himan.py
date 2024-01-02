@@ -16,11 +16,11 @@ with open("Accident locations on Indian roads.pptx", "rb") as pptx:
     file_name="Accident locations on Indian roads.pptx",
     mime="pptx"
     )
-with open("Internship report", "rb") as docx:
+with open("Internship report.docx", "rb") as docx:
     btn = st.download_button(
     label="Download Internship report",
     data=docx,
-    file_name="Internship report",
+    file_name="Internship report.docx",
     mime="docx"
     )
 st.write()
