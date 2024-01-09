@@ -9,6 +9,13 @@ with open("Solid-Waste.pdf", "rb") as file:
     file_name="Solid-Waste.pdf",
     mime="pdf"
     )
+with open("Kyoto_Protocol-6629.pptx", "rb") as pptx:
+    btn = st.download_button(
+    label="Kyoto_Protocol-6629 PPT",
+    data=pptx,
+    file_name="Kyoto_Protocol-6629",
+    mime="pptx"
+    )
 with open("Accident locations on Indian roads.pptx", "rb") as pptx:
     btn = st.download_button(
     label="Accident locations PPT",
