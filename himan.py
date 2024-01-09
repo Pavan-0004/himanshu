@@ -13,7 +13,7 @@ with open("Kyoto_Protocol-6629.pptx", "rb") as pptx:
     btn = st.download_button(
     label="Kyoto_Protocol-6629 PPT",
     data=pptx,
-    file_name="Kyoto_Protocol-6629",
+    file_name="Kyoto_Protocol-6629.pptx",
     mime="pptx"
     )
 with open("Accident locations on Indian roads.pptx", "rb") as pptx:
